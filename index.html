@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YOUNIVERSE</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="menu">
+      <main>
+        <h1>Hi,Le Mai</h1>
+        <h2>Let us discover yourniverse</h2>
+        <p class="established">Est. 2006</p>
+        <section>
+          <img src="280399183_3131261633855895_8532468291187810556_n.jpg" alt="Ha Le Mai" class="hlm"/>
+          <section>
+            <h2><button onclick="myFunctiona()"> MOON PHASE</h2>
+             <div id="moon1" class="moon">
+                <img src="https://lunaf.com/img/moon/phase-14.png?ezimgfmt=ng:webp/ngcb1" class="imgmoon">
+                <p>
+                    Moon in Scorpio 
+                    The Moon in Scorpio creates a strong need to explore deep feelings, leading to vulnerability and a strong memory of past actions. Kindness may not influence them, and they require a deep emotional relationship. They can detect others' emotions and have extreme emotions themselves. Fear of loss must be overcome to prevent losing what is cherished.
+                </p>
+            </div>
+            <script>
+                function myFunctiona() {
+                  var x = document.getElementById("moon1");
+                  if (x.style.display === "none") {
+                    x.style.display = "block";
+                  } else {
+                    x.style.display = "none";
+                  }
+                }
+            </script>
+          
