@@ -9,7 +9,7 @@
 <body>
     <div class="menu">
       <main>
-        <h1>Hi,Le Mai</h1>
+        <h1>Hi, Le Mai</h1>
         <h2>Let us discover yourniverse</h2>
         <p class="established">Est. 2006</p>
         <section>
@@ -33,4 +33,57 @@
                   }
                 }
             </script>
-          
+          </section>
+          <section class="ln">
+            <h2><button onclick="myFunctionb()"> HOROSCOPE</h2>
+             <div id="moon2" class="moon">
+                <img src="horoscope-chart4def__radix_9-6-2006_17-30.png" class="imgmoon1"/>
+                <p>
+                    <p class="s1">SUN SIGN</p><p class="s"><button onclick="myFunctionc()" class="s"><img src="https://horoscopes.astro-seek.com/seek-icons-astrologie/planety/planeta-stredni-barevna-slunce.png" /></button></p>
+                      <div id="sun1" class="sun">
+                        <p>
+                          Sun in Gemini - versatile and intelligent, with the ability to adapt to new situations quickly. They are open-minded and interested in novel things, often sharing their knowledge and enthusiasm with others. Their social nature and charming personality make them great communicators and influencers. Conservative individuals may not understand their openness to change.
+                        </p>
+                        <p>
+                          The Sun in the seventh house indicates individuals who are well-known and have a talent for dealing with the public. They lack initiative and their actions are based on the reactions of others. Their success relies heavily on their relationships with others and they have a strong sense of balance. They may find success in fields such as sales and advertising. Helping others will help them climb the career ladder and they have the potential to be leaders.
+                        </p>
+                      </div>
+                      <p class="s1">MOON SIGN</p><p class="s"><button onclick="myFunctiond()"><img src="https://horoscopes.astro-seek.com/seek-icons-astrologie/planety/planeta-stredni-barevna-luna.png"/></button></p>
+                        <div id="moon3" class="moon3">
+                          <p>
+                            Moon in the 12th House - The Moon in the twelfth house creates loners who sometimes have the need to move away from everyday life. These people usually do not find emotional stability in personal relationships and they often feel lonely. They are easily influenced and they react on subtle influences of the environment. These individuals are very kind and warm-hearted. They may work for a charity, hospital or other large institution that serves for the good of others. They are not able to express themselves well because their emotions are often confused. The Moon in the twelfth house emphasises that these people will feel secure only when they distance themselves from others.
+                          </p>
+                        </div>
+                </p>
+            </div>
+            <script>
+                function myFunctionb() {
+                  var x = document.getElementById("moon2");
+                  if (x.style.display === "none") {
+                    x.style.display = "block";
+                  } else {
+                    x.style.display = "none";
+                  }
+                }
+                function myFunctionc() {
+                  var x = document.getElementById("sun1");
+                  if (x.style.display === "none") {
+                    x.style.display = "block";
+                  } else {
+                    x.style.display = "none";
+                  }}
+                  function myFunctiond() {
+                  var x = document.getElementById("moon3");
+                  if (x.style.display === "none") {
+                    x.style.display = "block";
+                  } else {
+                    x.style.display = "none";
+                  }
+                }
+            </script>
+          </section>
+          </section>
+          </main>
+          </div>
+          </body>
+          </html>

@@ -59,7 +59,7 @@ h2 {
 .kkk p {
     text-align : none;
 }
-.t,.moon1,.moon {
+.t,.moon1,.moon,.moon3,.sun {
   display : none;
 }
 .moon p {
@@ -71,7 +71,7 @@ h2 {
     margin-top : 20px;
 }
 .hlm {
-    width : 50%;
+    width : 60%;
 
 }
 button {
@@ -82,4 +82,25 @@ button {
     color:azure;
     border-color: rgba(4, 4, 49, 0);
 
+}
+.imgmoon1 {
+    width : 400px;
+    margin :auto;
+}
+.s1{
+  text-align: left;
+  width: 90%;
+}
+.s {
+  text-align: right;
+  width: 10%;
+}
+.ln p{
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color:white;
+}
+.sun p,.moon3 p{
+  color: rgb(187, 187, 92);
 }
