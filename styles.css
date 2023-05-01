@@ -1,5 +1,7 @@
 body {
-    background-image: url(imageedit_1_5909369294.png);}
+    background-image: url(imageedit_2_3483959204.png);
+    background-size: cover;
+    background-repeat: no-repeat;}
 h1 {
     font-family :fantasy;
     font-size: 40px;
@@ -21,7 +23,7 @@ h2 {
   
 .menu {
     width: 80%;
-    background-color:rgba(4, 4, 49, 0.6);
+    background-color:rgba(32, 151, 78, 0.70);
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -102,7 +104,7 @@ button {
   color:white;
 }
 .sun p,.moon3 p{
-  color: rgb(187, 187, 92);
+  color: rgb(206, 206, 102);
 }
 a{
   color:white;
@@ -113,4 +115,8 @@ a:hover {
 footer {
   margin : 20px;
   text-align: center;
+}
+.hlm {
+  width :200px;
+  height : 350px;
 }
